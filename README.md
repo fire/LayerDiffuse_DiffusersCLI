@@ -12,7 +12,7 @@ You can use the below deployment:
 
     git clone https://github.com/lllyasviel/LayerDiffuse_DiffusersCLI.git
     cd LayerDiffuse_DiffusersCLI
-    micromamba create -n layerdiffuse python=3.10
+    micromamba create -n layerdiffuse python=3.10 -c conda-forge
     micromamba activate layerdiffuse
     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
     pip install -r requirements.txt
