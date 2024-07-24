@@ -1,6 +1,6 @@
 import os
 
-os.environ['HF_HOME'] = 'D:/hf_home'
+os.environ['HF_HOME'] = 'c:/hf_home'
 
 import numpy as np
 import torch
